@@ -5,7 +5,7 @@
 
 ## Debbugger for JupyterLab - Notebook Example
 
-#### Today, I will show you the further steps to install the first public release of the Jupyter visual debugger!, and handling 3 examples
+#### In this notebook, I will show you the further steps to install the first public release of the Jupyter visual debugger!, and handling 3 examples
 
 #### This is just the first release, but we can already set breakpoints in notebook cells and source files, inspect variables, navigate the call stack and more.
 
