@@ -3,21 +3,21 @@
   <img src="./img/logo.png" alt="Header" style="width:900px; height: 200px">
 </div>
 
-## Debbugger for JupyterLab - Notebook Example
+## Debugger for JupyterLab - Notebook Example
 
-#### In this notebook, I will show you the further steps to install the first public release of the Jupyter visual debugger!, and handling 3 examples
+#### In this , I will show you the further steps to install the first public release of the Jupyter visual debugger!, and handling 3 examples
 
 #### This is just the first release, but we can already set breakpoints in notebook cells and source files, inspect variables, navigate the call stack and more.
 
 ### Steps shown in this Notebook:
-* #### Dubbugger extension Installation 
+* #### Debugger extension Installation 
 * #### Xeus-python Installation, the first Jupyter Kernel to support debugging
-* #### 1st Example : Debbugging function
-* #### 2nd Example : Dubbugging dataframe (Pandas)
+* #### 1st Example : Debugging function
+* #### 2nd Example : Dubugging dataframe (Pandas)
 * #### 3rd example : Handling The new Xeus-python kernel (+ Bonus)
 
-## Dubbugger extension Installation
-#### To install Debbugging extension in jupyterlab the following command.
+## Debugger extension Installation
+#### To install Debugging extension in jupyterlab the following command.
 
 ```sh
  $ jupyter labextension install @jupyterlab/debugger 
@@ -27,7 +27,7 @@
 ### You will see a small icon 🐞 in jupyterlab environnement (in top-right)
 
 <div style="text-align: center; line-height: 0; padding-top: 9px;">
-  <img src="./img/extention.png" alt="dubbegger_extention" style="width:1200px; height: 200px">
+  <img src="./img/extention.png" alt="debugger_extention" style="width:1200px; height: 200px">
 </div>
 
 ## Xeus-python Installation, the first Jupyter Kernel to support debugging
@@ -66,7 +66,7 @@ $ pip install xeus-python notebook
   <img src="./img/xeus.gif" alt="kernel based on xeus" style="width:1000px; height: 600px">
 </div>
 
-## 1st Example : Debbugging function
+## 1st Example : Debugging function
 ``` python 
 ## Function example  
 result = 0; # This is global variable.
@@ -82,7 +82,7 @@ multi( 10, 20 );
 print ("Outside the function global result : ", result )
 ```
 
-## 2nd Example : Debbugging dataframe (Pandas)
+## 2nd Example : Debugging dataframe (Pandas)
 
 ```python
 # dataframe example 
@@ -124,7 +124,6 @@ multi(3,25)
 ```sh
 $ pip install ipywebrtc
 ```
-
 
 
 #### Play Stream Video
